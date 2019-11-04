@@ -35,4 +35,5 @@ To run only %s tests for example, you can use ```./test s```
 To run tests #42 to #84, you can use ```./test 42 84```
 
 For more info about PFT, visit https://github.com/gavinfielder/pft
-All credit goes to Gavin Fielder
+
+**All credit goes to Gavin Fielder**
