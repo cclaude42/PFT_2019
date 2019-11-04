@@ -8,15 +8,13 @@ First, you'll need to install PFT, by Gavin Fielder.
 
 ```
 git clone https://github.com/gavinfielder/pft.git pft && echo "pft/" >> .gitignore
+cd pft && rm unit_tests.c
 ```
 
-Then, you'll need to replace the unit_tests.c file.
+Then, you'll need to replace the unit_tests.c file you just deleted.
 ```
-cd pft
-rm unit_tests.c
 git clone https://github.com/YulonSil/PFT_2019.git temp_folder
-cp temp_folder/unit_tests.c .
-rm -rf temp_folder
+cp temp_folder/unit_tests.c . && rm -rf temp_folder
 ```
 
 Finally, you'll need to update the PFT script with the new units tests.
