@@ -4,7 +4,7 @@ A PFT file to only tests mandatory 2019 ft_printf features
 # Installation
 
 First, you'll need to install PFT, by Gavin Fielder.
-In the root of your ft_printf repo, run this command:
+**In the root of your ft_printf repo**, run this command:
 
 ```
 git clone https://github.com/gavinfielder/pft.git pft && echo "pft/" >> .gitignore
