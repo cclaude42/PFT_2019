@@ -4,6 +4,7 @@ A PFT file to only tests mandatory 2019 ft_printf features
 ## Installation
 
 First, you'll need to install PFT, by Gavin Fielder.
+
 **In the root of your ft_printf repo**, run this command:
 
 ```
@@ -12,7 +13,9 @@ cd pft
 rm unit_tests.c
 ```
 
-Then, you'll need to replace the unit_tests.c file you just deleted. **In the PFT repo**, run:
+Then, you'll need to replace the unit_tests.c file you just deleted.
+
+**In the PFT repo**, run:
 ```
 git clone https://github.com/YulonSil/PFT_2019.git temp_folder
 cp temp_folder/unit_tests.c .
@@ -26,7 +29,9 @@ Finally, you'll need to update the PFT script with the new units tests.
 ## Usage and credit
 
 You can now run all the tests using ```./test```
+
 To run only %s tests for example, you can use ```./test s```
+
 To run tests #42 to #84, you can use ```./test 42 84```
 
 For more info about PFT, visit https://github.com/gavinfielder/pft
