@@ -1,7 +1,7 @@
 # PFT_2019
 A PFT file to only tests mandatory 2019 ft_printf features
 
-# Installation
+## Installation
 
 First, you'll need to install PFT, by Gavin Fielder.
 **In the root of your ft_printf repo**, run this command:
@@ -23,7 +23,7 @@ Finally, you'll need to update the PFT script with the new units tests.
 ```
 ./enable-test
 ```
-# Usage
+### Usage
 
 You can now run all the tests using ```./test```
 To run only %s tests for example, you can use ```./test s```
