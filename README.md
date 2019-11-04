@@ -23,7 +23,7 @@ Finally, you'll need to update the PFT script with the new units tests.
 ```
 ./enable-test
 ```
-### Usage
+## Usage
 
 You can now run all the tests using ```./test```
 To run only %s tests for example, you can use ```./test s```
