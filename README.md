@@ -17,9 +17,9 @@ Then, you'll need to replace the unit_tests.c file you just deleted with the upd
 
 **In the PFT repo**, run:
 ```
-git clone https://github.com/YulonSil/PFT_2019.git temp_folder
-cp temp_folder/unit_tests.c .
-rm -rf temp_folder
+git clone https://github.com/YulonSil/PFT_2019.git cclaude
+cp cclaude/unit_tests.c .
+rm -rf cclaude
 ```
 
 Finally, you'll need to update the PFT script with the new units tests.
