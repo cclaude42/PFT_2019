@@ -12,7 +12,7 @@ cd pft
 rm unit_tests.c
 ```
 
-Then, you'll need to replace the unit_tests.c file you just deleted. **Still in the PFT repo**, run:
+Then, you'll need to replace the unit_tests.c file you just deleted. **In the PFT repo**, run:
 ```
 git clone https://github.com/YulonSil/PFT_2019.git temp_folder
 cp temp_folder/unit_tests.c .
