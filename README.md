@@ -1,6 +1,6 @@
 ## Important
 This is an edit of ft_printf tester PFT made by @gfielder to fit with 2019 ft_printf rules.
-This PFT only includes the 721 tests that a basic 2019 ft_printf should pass, to make it easier to read (%cspdiuxX% "-0.*")
+This PFT only includes the 721 tests that a basic 2019 ft_printf should pass (%cspdiuxX% -0.*) to make it easier to read.
 
 Original PFT : https://github.com/gavinfielder/pft
 
