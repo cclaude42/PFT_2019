@@ -1,6 +1,12 @@
 # PFT_2019
 A PFT file to only tests mandatory 2019 ft_printf features
 
+## IMPORTANT
+This is an edit of ft_printf tester PFT made by @gfielder to fit with 2019 ft_printf rules.
+ORIGINAL PFT : https://github.com/gavinfielder/pft
+This PFT only includes the 721 tests that a basic 2019 ft_printf should pass, to make it easier to read.
+This update was made by @cclaude
+
 ## Installation
 
 First, you'll need to install PFT, by Gavin Fielder.
