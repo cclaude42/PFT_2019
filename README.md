@@ -1,13 +1,18 @@
 ## Important
 This is an edit of ft_printf tester PFT made by @gfielder to fit with 2019 ft_printf rules.
+
 ORIGINAL PFT : https://github.com/gavinfielder/pft
+
 This PFT only includes the 721 tests that a basic 2019 ft_printf should pass, to make it easier to read.
+
 This update was made by @cclaude
 
 ## Installation
 
 First, you'll need to install PFT, by Gavin Fielder.
+
 Then, you'll need to replace the unit_tests.c file you just deleted with the updated one.
+
 Finally, you'll need to update the PFT script with the new units tests.
 
 To do that, run this **in the root of your ft_printf repo**:
