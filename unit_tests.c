@@ -6,7 +6,7 @@
 /*   By: gfielder <gfielder@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/03 21:15:57 by gfielder          #+#    #+#             */
-/*   Updated: 2019/11/02 17:37:03 by cclaude          ###   ########.fr       */
+/*   Updated: 2019/11/07 12:44:11 by cclaude          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -378,15 +378,15 @@ int		i_prec_width_nn_neg_ljzp_ignoreflag(void){return test("%0-3.3i", -8462);}
 // int		i_prec_width_nn_pos_ljaszp_ignoreflag(void){return test("%0+-3.3i", 6983);}
 // int		i_prec_width_nn_neg_ljaszp_ignoreflag(void){return test("%0+-3.3i", -8462);}
 //Signed integers of varying size modifiers
-static char 		ch_pos_1 = 100, ch_neg_1 = -87;
-static short		sh_pos_1 = 3047, sh_neg_1 = -8875;
+// static char 		ch_pos_1 = 100, ch_neg_1 = -87;
+// static short		sh_pos_1 = 3047, sh_neg_1 = -8875;
 static int			i_pos_1 = 878023;
-static long		l_pos_1 = 22337203685477, l_neg_1 = -22337203685477;
-static long long	ll_pos_1 = 22337203685477, ll_neg_1 = -22337203685477;
-static long		lmax	= 9223372036854775807;
-static long		lmin	= -9223372036854775807;
-static long long llmax = 9223372036854775807;
-static long long	llmin = -9223372036854775807ll;
+// static long		l_pos_1 = 22337203685477, l_neg_1 = -22337203685477;
+// static long long	ll_pos_1 = 22337203685477, ll_neg_1 = -22337203685477;
+// static long		lmax	= 9223372036854775807;
+// static long		lmin	= -9223372036854775807;
+// static long long llmax = 9223372036854775807;
+// static long long	llmin = -9223372036854775807ll;
 // int		i_size_hh_pos_casted(void){return test("%hhi", (char)45);}
 // int		i_size_hh_neg_casted(void){return test("%hhi", (char)-45);}
 // int		i_size_h_pos_casted(void){return test("%hi", (short)385);}
@@ -979,8 +979,8 @@ int d_prec0val0_wlj_impl(void){return test("%-5.d", 0);}
 // int d_prec0val0_waslj_impl(void){return test("%+-5.d", 0);}
 
 //Switching between string and signed integers of various sizes
-static char	str_1[] = "hello world", str_2[] = "panda", str_3[] = "this is a longer string";
-static char	str_empty[] = "";
+// static char	str_1[] = "hello world", str_2[] = "panda", str_3[] = "this is a longer string";
+// static char	str_empty[] = "";
 // int		mix_hhi_str_lli_str(void){return test("%hhi%s%lli%s", ch_pos_1, str_3, ll_neg_1, str_2);}
 // int		mix_str_hi_str_li(void){return test("%s%hi%s%li", str_1, sh_neg_1, str_3, l_neg_1);}
 // int		mix_str_hi_str_li_emptystr(void){return test("%s%hi%s%li", str_empty, sh_neg_1, str_3, l_neg_1);}
@@ -1033,13 +1033,13 @@ int u_prec_width_nf_pos_ljzp_ignoreflag(void){return test("%0-8.3u", 8375);}
 int u_prec_width_fn_pos_ljzp_ignoreflag(void){return test("%0-3.7u", 3267);}
 int u_prec_width_nn_pos_ljzp_ignoreflag(void){return test("%0-3.3u", 6983);}
 //Unsigned integers of varying size modifiers
-static unsigned char 		uch_pos_1 = 100;
-static unsigned short		ush_pos_1 = 3047;
-static unsigned int		ui_pos_1 = 878023;
-static unsigned long		ul_pos_1 = 22337203685477;
-static unsigned long long	ull_pos_1 = 22337203685477;
-static unsigned long long  ullmax = 9223372036854775807;
-static unsigned long  		ulmax = 9223372036854775807;
+// static unsigned char 		uch_pos_1 = 100;
+// static unsigned short		ush_pos_1 = 3047;
+// static unsigned int		ui_pos_1 = 878023;
+// static unsigned long		ul_pos_1 = 22337203685477;
+// static unsigned long long	ull_pos_1 = 22337203685477;
+// static unsigned long long  ullmax = 9223372036854775807;
+// static unsigned long  		ulmax = 9223372036854775807;
 // int u_size_hh_pos_casted(void){return test("%hhu", (unsigned char)45);}
 // int u_size_h_pos_casted(void){return test("%hu", (unsigned short)385);}
 // int u_size_l_pos_casted(void){return test("%lu", (unsigned long)32);}
@@ -2498,13 +2498,13 @@ int c_nullterm_5wlj(void){return test("%-5c", '\0');}
 
 // Mix tests
 static unsigned int		mx_u = 235;
-static long double			mx_Lf = 0.375l;
-static double				mx_f = 0.625;
-static long				mx_li =  4223372036854775800;
-static long long			mx_lli = 3223372036654775200;
+// static long double			mx_Lf = 0.375l;
+// static double				mx_f = 0.625;
+// static long				mx_li =  4223372036854775800;
+// static long long			mx_lli = 3223372036654775200;
 static char				mx_c = 'G';
-static short				mx_hi = -3244;
-static char				mx_hhi = 'F';
+// static short				mx_hi = -3244;
+// static char				mx_hhi = 'F';
 static char			   *mx_s = "Hello, World!";
 static int					mx_i = 42;
 //
