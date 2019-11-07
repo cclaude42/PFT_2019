@@ -14,7 +14,9 @@ git clone https://github.com/gavinfielder/pft.git pft_2019 && echo "pft_2019/" >
 ```
 
 ## Usage and credit
-You can now run all the tests using ```./test``` **Your printf should pass ALL the tests if you want to turn it in.**
+You can now run all the tests using ```./test``` 
+
+**Your printf should pass ALL the tests if you want to turn it in.**
 
 To run only %s tests for example, you can use ```./test s```
 
