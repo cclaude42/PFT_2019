@@ -1,12 +1,12 @@
 ## Important
-This is an edit of ft_printf tester PFT made by @gfielder to fit with 2019 rules.
+This is an edit of ft_printf tester PFT made by **@gfielder** to fit with 2019 rules.
 This PFT only includes the 721 tests that a basic ft_printf should pass (%cspdiuxX% -0.*).
 
 **Your printf should pass ALL the tests if you want to turn it in.**
 
 Original PFT : https://github.com/gavinfielder/pft
 
-This update was made by @cclaude
+This update was made by **@cclaude**
 
 ## Installation
 **In the root of your ft_printf repo**, run :
