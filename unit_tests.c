@@ -6,7 +6,7 @@
 /*   By: gfielder <gfielder@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/03 21:15:57 by gfielder          #+#    #+#             */
-/*   Updated: 2019/11/19 17:22:43 by cclaude          ###   ########.fr       */
+/*   Updated: 2019/11/19 17:46:31 by cclaude          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -3732,9 +3732,24 @@ int moul_notmandatory_star_5(void){return test("%%*i 42 == |%*i|\n", 2, 42);}
 // int moul_notmandatory_widechar_basic2(void){return test("%C\n", L'ø');}
 // int moul_notmandatory_widestr_basic2(void){wchar_t wz[3] = L"@@"; return test("%ls", wz);}
 
-
-
-
-
+int new2019_star_1(void){return test("%*s", 32, "abc");}
+int new2019_star_2(void){return test("%-*s", 32, "abc");}
+int new2019_star_3(void){return test("%*s", 3, "hello");}
+int new2019_star_4(void){return test("%.*s", 3, "hello");}
+int new2019_star_5(void){return test("%.*s", 0, "hello");}
+int new2019_star_6(void){return test("%-*.*s", 7, 3, "yolo");}
+int new2019_star_7(void){return test("%*i", 4, 94827);}
+int new2019_star_8(void){return test("%*i", 14, 94827);}
+int new2019_star_9(void){return test("%.*i", 6, -3);}
+int new2019_star_10(void){return test("%0*i", 7, -54);}
+int new2019_star_11(void){return test("%*s", -32, "abc");}
+int new2019_star_12(void){return test("%-*s", -32, "abc");}
+int new2019_star_13(void){return test("%*s", -3, "hello");}
+int new2019_star_14(void){return test("%.*s", -3, "hello");}
+int new2019_star_15(void){return test("%-*.*s", -7, -3, "yolo");}
+int new2019_star_16(void){return test("%*i", -4, 94827);}
+int new2019_star_17(void){return test("%*i", -14, 94827);}
+int new2019_star_18(void){return test("%.*i", -6, -3);}
+int new2019_star_19(void){return test("%0*i", -7, -54);}
 
 #pragma clang diagnostic pop
