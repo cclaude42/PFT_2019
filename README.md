@@ -17,7 +17,7 @@ git clone https://github.com/gavinfielder/pft.git pft_2019 && echo "pft_2019/" >
 
 ## Usage
 
-Run ```./enable-test``` to configure PFT.
+**In the PFT_2019 repo**, run ```make re```
 
 You can now run all the tests using ```./test``` 
 
@@ -25,7 +25,7 @@ To run only %s tests for example, you can use ```./test s```
 
 To run tests #42 to #84, you can use ```./test 42 84```
 
-**Warning : everytime you change your printf, you need to** ```make``` **your printf and run** ```./enable-test``` **in PFT again.**
+**Warning : everytime you change your printf, you need to** ```make re``` **in PFT again.**
 
 ## Credit
 
