@@ -6,7 +6,7 @@
 /*   By: gfielder <gfielder@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/03 21:15:57 by gfielder          #+#    #+#             */
-/*   Updated: 2019/11/07 12:44:11 by cclaude          ###   ########.fr       */
+/*   Updated: 2019/11/19 17:22:43 by cclaude          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -1566,6 +1566,12 @@ static char *a11;
 static void *a12;
 
 int p_null(void){return test("%p", NULL);}
+int p_null_width_fit(void){return test("%5p", NULL);}
+int p_null_width_nofit(void){return test("%2p", NULL);}
+
+int p_void(void){return test("%.p", NULL);}
+int p_void_width_fit(void){return test("%5.p", NULL);}
+int p_void_width_nofit(void){return test("%2.p", NULL);}
 
 int	p_ftfc_literal_9w_prec2_undefbehav(void){return test("%9.2p\n", 1234);}
 int	p_ftfc_literal_2w_prec9_undefbehav(void){return test("%2.9p\n", 1234);}
