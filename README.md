@@ -22,7 +22,7 @@ To run only %s tests for example, you can use ```./test s```
 
 To run tests #42 to #84, you can use ```./test 42 84```
 
-**You need to** ```make``` **your printf everytime you change it or PFT's results won't change. You also need to**  ```./enable-test``` **before your run ./test again. 
+**You need to** ```make``` **your printf everytime you change it or PFT's results won't change. You also need to**  ```./enable-test``` **before your run ./test again.**
 
 ## Credit
 
