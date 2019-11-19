@@ -1,7 +1,7 @@
 ## Important
 This is an edit of ft_printf tester PFT made by **@gfielder** to fit with 2019 rules.
-This PFT only includes the 721 test combinations of the basic flags (%cspdiuxX% -0.*).
-It's also edited to check return values.
+This PFT only includes the 745 test combinations of the basic flags (%cspdiuxX% -0.*).
+Tests were added to cover stars and null pointers.
 
 **Your printf doesn't need to pass all the tests, some cover undefined behaviour.**
 
@@ -29,6 +29,5 @@ To run tests #42 to #84, you can use ```./test 42 84```
 **Warning : everytime you change your printf, you need to** ```make re``` **in PFT again.**
 
 ## Credit
-
 All credit goes to Gavin Fielder.
 https://github.com/gavinfielder
