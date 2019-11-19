@@ -1,6 +1,7 @@
 ## Important
 This is an edit of ft_printf tester PFT made by **@gfielder** to fit with 2019 rules.
 This PFT only includes the 721 test combinations of the basic flags (%cspdiuxX% -0.*).
+It's also edited to check return values.
 
 **Your printf doesn't need to pass all the tests, some cover undefined behaviour.**
 
