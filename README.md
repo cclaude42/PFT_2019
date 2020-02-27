@@ -6,7 +6,7 @@ This is an edit of ft_printf tester PFT made by **[Gavin Fielder](https://github
 This PFT only includes the 745 test combinations of the basic flags (%cspdiuxX% -0.*).
 Tests were added to cover stars and null pointers.
 
-**Your printf doesn't need to pass all the tests, some cover undefined behaviour.**
+**Your printf doesn't need to pass all the tests, some cover undefined behaviour (but it's better if it does).**
 
 Original PFT : https://github.com/gavinfielder/pft
 
@@ -21,6 +21,8 @@ git clone https://github.com/gavinfielder/pft.git pft_2019 && echo "pft_2019/" >
 
 ## Usage
 
+**Warning : everytime you change your printf, you need to** ```make re``` **in PFT again.**
+
 **In the PFT_2019 repo**, run ```make re```
 
 You can now run all the tests using ```./test``` 
@@ -28,8 +30,6 @@ You can now run all the tests using ```./test```
 To run only %s tests for example, you can use ```./test s```
 
 To run tests #42 to #84, you can use ```./test 42 84```
-
-**Warning : everytime you change your printf, you need to** ```make re``` **in PFT again.**
 
 ## Credit
 The code was written by [Gavin Fielder](https://github.com/gavinfielder). This is an update of the test file by [cclaude](https://github.com/cclaude42), with some tests removed and some added, for easier use with the 2019 printf subject.
