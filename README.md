@@ -1,6 +1,6 @@
 ## Important
 
-### NEW ! TEST YOUR EXAM-PRINTF WITH **[PFT_EXAM](https://github.com/cclaude42)**
+### NEW ! TEST YOUR EXAM-PRINTF WITH **[PFT_EXAM](https://github.com/cclaude42/PFT_EXAM)**
 
 This is an edit of ft_printf tester PFT made by **[Gavin Fielder](https://github.com/gavinfielder)** to fit with 2019 rules.
 This PFT only includes the 745 test combinations of the basic flags (%cspdiuxX% -0.*).
