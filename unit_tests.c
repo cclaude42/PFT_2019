@@ -6,7 +6,7 @@
 /*   By: gfielder <gfielder@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/03 21:15:57 by gfielder          #+#    #+#             */
-/*   Updated: 2019/11/19 18:06:44 by cclaude          ###   ########.fr       */
+/*   Updated: 2021/02/09 20:12:33 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ int		nospec_successive_8_3(void){return ( test("is alive") - test(" he"));}
 
 //%% Tests
 int		pct_basic(void){return test("%%");}
+int		pct_triple(void){return test("%%%");}
 int		pct_5w(void){return test("%5%");}
 int		pct_5wlj(void){return test("%-5%");}
 int		pct_5wzp(void){return test("%05%");}
